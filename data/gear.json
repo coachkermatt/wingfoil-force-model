@@ -27,55 +27,495 @@
         "eta_high": 0.7
       }
     }
-  },
+  }, 
   "foils": {
     "AXIS": {
       "front_wings": [
         {
-          "model": "Spitfire 720",
-          "area_cm2": 720,
-          "eff_mult": 0.98
-        },
-        {
-          "model": "Spitfire 840",
-          "area_cm2": 840,
+          "model": "Spitfire 1180",
+          "series": "Spitfire",
+          "area_cm2": 1554,
           "eff_mult": 1.0
         },
         {
-          "model": "Spitfire 940",
-          "area_cm2": 940,
-          "eff_mult": 1.02
+          "model": "Spitfire 1100",
+          "series": "Spitfire",
+          "area_cm2": 1423,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 1030",
+          "series": "Spitfire",
+          "area_cm2": 1284.41,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 960",
+          "series": "Spitfire",
+          "area_cm2": 1196,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 900",
+          "series": "Spitfire",
+          "area_cm2": 1099,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 840",
+          "series": "Spitfire",
+          "area_cm2": 1006,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 780",
+          "series": "Spitfire",
+          "area_cm2": 902,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 720",
+          "series": "Spitfire",
+          "area_cm2": 815,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 670",
+          "series": "Spitfire",
+          "area_cm2": 721,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 620",
+          "series": "Spitfire",
+          "area_cm2": 628,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 1050",
+          "series": "HPS",
+          "area_cm2": 1502,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 980",
+          "series": "HPS",
+          "area_cm2": 1323,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 930",
+          "series": "HPS",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 880",
+          "series": "HPS",
+          "area_cm2": 1112,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 830",
+          "series": "HPS",
+          "area_cm2": 1014,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "HPS 700",
+          "series": "HPS",
+          "area_cm2": 890,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ART v2 1099",
+          "series": "ART v2",
+          "area_cm2": 1147,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ART v2 999",
+          "series": "ART v2",
+          "area_cm2": 1009,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ART v2 939",
+          "series": "ART v2",
+          "area_cm2": 911,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ART v2 879",
+          "series": "ART v2",
+          "area_cm2": 823,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ART v2 819",
+          "series": "ART v2",
+          "area_cm2": 745,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 1350",
+          "series": "Fireball",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 1250",
+          "series": "Fireball",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 1160",
+          "series": "Fireball",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 1070",
+          "series": "Fireball",
+          "area_cm2": 877,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 1000",
+          "series": "Fireball",
+          "area_cm2": 773,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 940",
+          "series": "Fireball",
+          "area_cm2": 689,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Fireball 880",
+          "series": "Fireball",
+          "area_cm2": 604,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG v2 1400",
+          "series": "PNG v2",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG v2 1300",
+          "series": "PNG v2",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG v2 1200",
+          "series": "PNG v2",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG 1300",
+          "series": "PNG",
+          "area_cm2": 1712,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG 1150",
+          "series": "PNG",
+          "area_cm2": 1778,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG 1010",
+          "series": "PNG",
+          "area_cm2": 1430,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "PNG 910",
+          "series": "PNG",
+          "area_cm2": 1268,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "SP 860",
+          "series": "SP",
+          "area_cm2": 1293,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "SP 760",
+          "series": "SP",
+          "area_cm2": 1218,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "SP 660",
+          "series": "SP",
+          "area_cm2": 1113,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 1401",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 1201",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 1121",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 1051",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 1001",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 951",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 901",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 851",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 801",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "ARTPRO 751",
+          "series": "ARTPRO",
+          "area_cm2": null,
+          "eff_mult": 1.0
         }
       ],
       "stabilizers": [
         {
-          "model": "Progressive 350",
-          "area_cm2": 350,
+          "model": "Progressive 250/56",
+          "family": "Progressive",
+          "area_cm2": 140.0,
           "eff_mult": 1.0
         },
         {
-          "model": "Progressive 375",
-          "area_cm2": 375,
-          "eff_mult": 1.01
+          "model": "Progressive 275/58",
+          "family": "Progressive",
+          "area_cm2": 159.5,
+          "eff_mult": 1.0
         },
         {
-          "model": "Progressive 400",
-          "area_cm2": 400,
-          "eff_mult": 1.02
+          "model": "Progressive 300/61",
+          "family": "Progressive",
+          "area_cm2": 183.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 325/62",
+          "family": "Progressive",
+          "area_cm2": 201.5,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 350/63",
+          "family": "Progressive",
+          "area_cm2": 220.5,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 375/64",
+          "family": "Progressive",
+          "area_cm2": 240.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 400/65",
+          "family": "Progressive",
+          "area_cm2": 260.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 425/66",
+          "family": "Progressive",
+          "area_cm2": 280.5,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 450/67",
+          "family": "Progressive",
+          "area_cm2": 301.5,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 475/68",
+          "family": "Progressive",
+          "area_cm2": 323.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Skinny 365/55",
+          "family": "Skinny",
+          "area_cm2": 200.75,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Skinny 362/50",
+          "family": "Skinny",
+          "area_cm2": 181.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Skinny 360/45",
+          "family": "Skinny",
+          "area_cm2": 162.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Skinny 359/40",
+          "family": "Skinny",
+          "area_cm2": 143.6,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Speed 420/60",
+          "family": "Speed",
+          "area_cm2": 252.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Speed 400F/60",
+          "family": "Speed",
+          "area_cm2": 240.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Speed 380/60",
+          "family": "Speed",
+          "area_cm2": 228.0,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Pump 460/60 V2",
+          "family": "Pump",
+          "area_cm2": 229.9,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Freeride 500/90",
+          "family": "Freeride",
+          "area_cm2": 360.77,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Freeride 440/90",
+          "family": "Freeride",
+          "area_cm2": 318.94,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Freeride Small 370/90",
+          "family": "Freeride Small",
+          "area_cm2": 239.54,
+          "eff_mult": 1.0
         }
       ],
       "fuselages": [
         {
-          "model": "Short",
-          "eff_mult": 1.01
-        },
-        {
-          "model": "Standard",
+          "model": "Black Standard",
           "eff_mult": 1.0
         },
         {
-          "model": "Long",
-          "eff_mult": 0.99
+          "model": "Black Short",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Ultrashort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Crazyshort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Windsurf",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Advance+ Short",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Advance+ Ultrashort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Advance+ Crazyshort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Black Advance+ Sillyshort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Standard",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Short",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Ultrashort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Crazyshort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Windsurf",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Advance Short",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Advance Ultrashort",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Red Advance Crazyshort",
+          "eff_mult": 1.0
         }
       ]
     }
