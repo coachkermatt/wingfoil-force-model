@@ -11,8 +11,8 @@
           5.7,
           6.6
         ],
-        "cl_max": 1.0,
-        "eta_high": 0.7
+        "cl_max": 1.1,
+        "eta_high": 0.9
       },
       "Wasp": {
         "sizes_m2": [
@@ -24,7 +24,7 @@
           7.0
         ],
         "cl_max": 0.95,
-        "eta_high": 0.65
+        "eta_high": 0.7
       }
     }
   },
