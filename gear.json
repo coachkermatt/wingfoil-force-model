@@ -1,0 +1,83 @@
+{
+  "wings": {
+    "Ozone": {
+      "Flux": {
+        "sizes_m2": [
+          2.4,
+          3.0,
+          3.6,
+          4.3,
+          5.0,
+          5.7,
+          6.6
+        ],
+        "cl_max": 1.0,
+        "eta_high": 0.7
+      },
+      "Wasp": {
+        "sizes_m2": [
+          2.4,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0
+        ],
+        "cl_max": 0.95,
+        "eta_high": 0.65
+      }
+    }
+  },
+  "foils": {
+    "AXIS": {
+      "front_wings": [
+        {
+          "model": "Spitfire 720",
+          "area_cm2": 720,
+          "eff_mult": 0.98
+        },
+        {
+          "model": "Spitfire 840",
+          "area_cm2": 840,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Spitfire 940",
+          "area_cm2": 940,
+          "eff_mult": 1.02
+        }
+      ],
+      "stabilizers": [
+        {
+          "model": "Progressive 350",
+          "area_cm2": 350,
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Progressive 375",
+          "area_cm2": 375,
+          "eff_mult": 1.01
+        },
+        {
+          "model": "Progressive 400",
+          "area_cm2": 400,
+          "eff_mult": 1.02
+        }
+      ],
+      "fuselages": [
+        {
+          "model": "Short",
+          "eff_mult": 1.01
+        },
+        {
+          "model": "Standard",
+          "eff_mult": 1.0
+        },
+        {
+          "model": "Long",
+          "eff_mult": 0.99
+        }
+      ]
+    }
+  }
+}
